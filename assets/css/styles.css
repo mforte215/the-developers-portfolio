@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.nav-logo {
+  text-decoration: none;
+  font-size: 3em;
+  color: white;
+}
+
+.float-right {
+  float: right;
+  padding-top: 10px;
+}
+
+.nav-items {
+  display: inline;
+  padding: 0 2em 10px 10px;
+  border-radius: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: #393d3f;
+}
+
+.nav-bar {
+  width: 100%;
+  background-color: #393d3f;
+}
+
+/* Header Picture */
+
+.picture-container {
+  width: 100%;
+  height: 30em;
+  background-image: url("../images/skyline-from-bellevue.png");
+  background-size: cover;
+  position: relative;
+}
+
+.sub-header-container {
+  text-align: right;
+  position: relative;
+  top: 25rem;
+  color: white;
+  padding-right: 3em;
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.sub-header {
+  text-shadow: 5px 5px 8px #000000;
+}
