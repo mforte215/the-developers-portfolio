@@ -63,39 +63,56 @@
 }
 
 .content-section {
-  width: 90%;
-  margin: auto;
+  margin: 5% auto 0 auto;
   display: flex;
 }
 
 .subarea-one {
-  width: 30%;
-  padding: 1em;
-  text-align: center;
-  margin: 3% 0 0 0;
+  width: 20%;
+  text-align: right;
+}
+
+.subarea-one h2 {
+  margin: 0 10px 0 0;
+  font-size: xx-large;
+  width: 66%;
+  float: right;
 }
 
 .subarea-two {
   width: 70%;
-  padding: 1em;
+  border-left: 6px solid black;
 }
 
 .subarea-two p {
-  padding: 3em;
+  margin: 0 0 0 3%;
+  background-color: transparent;
 }
 
-.about-me-photo {
-  width: 70%;
-  margin: auto;
-  border-radius: 2.5em;
-  box-shadow: 5px 5px 8px #000000;
-  height: 17em;
+.main-project-tile {
+  width: 95%;
+  margin: 0 0 0 5%;
+  height: 20em;
+  background-color: rgb(97, 97, 232);
+  border: 6px solid black;
 }
 
-#work-header {
-  margin: 50% 0 0 0;
+.main-project-subtitle {
+  position: relative;
+  top: 16em;
+  font-size: large;
+  font-weight: bold;
 }
 
-#about-me-header {
-  margin: 1.8em 0 0 0;
+.project-tile-container {
+  display: flex;
+}
+
+.project-tile {
+  width: 95%;
+  margin: 0 0 0 5%;
+  height: 8em;
+  background-color: rgb(97, 97, 232);
+  border: 6px solid black;
+  width: 50%;
 }
