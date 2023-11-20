@@ -111,28 +111,48 @@
   border-left: 6px solid black;
 }
 
+.subarea-two a {
+  text-decoration: none;
+  display: contents;
+}
+
 .subarea-two p {
   margin: 0 0 0 3%;
-  background-color: transparent;
 }
 
 .main-project-tile {
   margin: 0 0 0 5%;
   height: 20em;
-  background-color: rgb(97, 97, 232);
+  background-image: url("../images/contact-form-landing-page.png");
+  background-size: cover;
   border: 6px solid black;
 }
 
 .main-project-subtitle {
   position: relative;
-  top: 16em;
+  top: 14em;
   font-size: large;
   font-weight: bold;
+  background-color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 8px;
+  color: black;
 }
 
 .project-tile-container {
   display: flex;
   margin: 2.5% 0 0 5%;
+}
+
+.hover-highlight:hover .main-project-subtitle {
+  border: 6px solid rgba(255, 228, 228, 0.75);
+  box-shadow: -3px 1px 45px -2px rgba(134, 134, 134, 0.75);
+}
+
+.hover-highlight:hover .project-tile-subtitle {
+  border: 6px solid rgba(255, 228, 228, 0.75);
+  box-shadow: -3px 1px 45px -2px rgba(134, 134, 134, 0.75);
 }
 
 .hover-highlight:hover {
@@ -144,7 +164,7 @@
   height: 8em;
   background-color: rgb(97, 97, 232);
   border: 6px solid black;
-  width: 48%;
+  width: 100%;
 }
 
 .tile-left {
@@ -157,9 +177,37 @@
 
 .project-tile-subtitle {
   position: relative;
-  top: 6em;
+  top: 4em;
   font-size: medium;
   font-weight: bold;
+  background-color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#project-two {
+  background-image: url("../images/tic-tac-toe-screenshot.png");
+  background-size: cover;
+  width: 100%;
+}
+
+#project-three {
+  background-image: url("../images/rock-paper-scissors-screenshot.png");
+  background-size: cover;
+  width: 100%;
+}
+
+#project-four {
+  background-image: url("../images/guess-the-number-screenshot.png");
+  background-size: cover;
+  width: 100%;
+}
+
+#project-five {
+  background-image: url("../images/prework-study-guide-screenshot.png");
+  background-size: cover;
+  width: 100%;
 }
 
 /**************************/
@@ -201,7 +249,7 @@
 /*     Footer Section     */
 /**************************/
 .footer {
-  font-size: 3em;
+  font-size: 1em;
   text-align: center;
   margin: 5% 0 0 0;
 }
@@ -252,5 +300,39 @@
     margin-right: 20%;
     margin-left: 20%;
     margin-bottom: 5%;
+  }
+
+  .main-project-tile {
+    margin: auto;
+    width: 90%;
+  }
+
+  .project-tile-container {
+    margin: 2.5% 0 0 0;
+  }
+
+  .project-tile {
+    width: 48%;
+  }
+
+  .tile-left {
+    margin: 0 2% 0 5%;
+  }
+
+  .tile-right {
+    margin: 0 5% 0 2%;
+  }
+
+  .project-tile-subtitle {
+    font-size: small;
+  }
+
+  .contact-list {
+    display: block;
+    padding: 0;
+  }
+
+  .nav-link {
+    font-size: 1.5em;
   }
 }
