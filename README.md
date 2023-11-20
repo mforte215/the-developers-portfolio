@@ -15,7 +15,7 @@ N/A
 
 ## Usage
 
-This site was built using
+This site was built using semantic HTML and CSS. It displays some basic information about the developer along with links to some example projects created by the developer
 
 A screenshot of the current site:
 ![Screenshot of the current online site with the lay of the page displayed](./assets/images/mforte215.github.io_the-developers-portfolio_.png)
