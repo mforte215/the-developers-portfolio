@@ -46,6 +46,7 @@
   background-image: url("../images/south-philly.jpg");
   background-size: cover;
   position: relative;
+  box-shadow: -4px -14px 5px -8px rgba(0, 0, 0, 0.75) inset;
 }
 
 .sub-header-container {
@@ -90,7 +91,6 @@
 }
 
 .main-project-tile {
-  width: 95%;
   margin: 0 0 0 5%;
   height: 20em;
   background-color: rgb(97, 97, 232);
@@ -106,13 +106,32 @@
 
 .project-tile-container {
   display: flex;
+  margin: 2.5% 0 0 5%;
+}
+
+.hover-highlight:hover {
+  border: 6px solid rgba(255, 228, 228, 0.75);
+  box-shadow: -3px 1px 45px -2px rgba(134, 134, 134, 0.75);
 }
 
 .project-tile {
-  width: 95%;
-  margin: 0 0 0 5%;
   height: 8em;
   background-color: rgb(97, 97, 232);
   border: 6px solid black;
-  width: 50%;
+  width: 48%;
+}
+
+.tile-left {
+  margin: 0 2% 0 0;
+}
+
+.tile-right {
+  margin: 0 0 0 2%;
+}
+
+.project-tile-subtitle {
+  position: relative;
+  top: 6em;
+  font-size: medium;
+  font-weight: bold;
 }
